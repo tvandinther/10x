@@ -29,5 +29,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Get Custom Files
 cd $HOME
 git clone --depth=1 https://github.com/tvandinther/10x.git $HOME/10x
-mv ./10x/.* $HOME
+mv 10x/dotfiles/* $HOME
 rm -d 10x
