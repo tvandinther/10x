@@ -1,0 +1,7 @@
+kubesh() {
+    kubectl exec --stdin --tty $1 -- /bin/sh
+}
+
+kubebash() {
+    kubectl exec --stdin --tty $1 -- /bin/bash
+}
